@@ -1,0 +1,62 @@
+body {
+    /* Location of the image */
+    background-image:url("images/website-background.gif");
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+
+    /*Set all the text to be displayed in the middle
+         */
+    text-align: center;
+    position: center;
+    font-family: Helvetica, fantasy;
+
+}
+h1 {
+    font-weight: bold;
+    font-size: 90px;
+    color: whitesmoke;
+    padding-top: 80px;
+    text-shadow: 2px 2px 2px #464646;
+    margin-bottom: 10px;
+}
+p {
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: firebrick;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgba(2,0,0,0.6);
+}
+.dot.logo {
+    padding-left: 500px;
+    padding-top: 900px;
+}
+
+
