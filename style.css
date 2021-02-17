@@ -22,8 +22,7 @@ body {
 
     /*Set all the text to be displayed in the middle
          */
-    text-align: center;
-    position: center;
+
     Font-family:'Raleway',sans-serif;
 
 
@@ -32,74 +31,76 @@ h1 {
     font-weight: bold;
     font-size: 90px;
     color: floralwhite;
-    padding-top: 50px;
+    padding-top: 30px;
     text-shadow: 3px 3px 3px #464646;
     margin-bottom: 10px;
+    text-align: center;
+    position: center;
 
 }
 h3 {
     font-size: 30px;
     color: floralwhite;
-    margin-bottom: 15px;
     text-decoration: underline;
+    text-align: center;
+    position: center;
+    margin-bottom: 55px;
 }
 
 p {
     font-size: 30px;
     color: floralwhite;
-    margin-bottom: 15px;
-
-}
-.contacts {
-    padding-top: 100px;
-    font-size: 25px;
+    text-align: center;
+    position: center;
+    margin-bottom:10px;
 }
 
-.button {
+.button_email {
+    text-align: center;
+    position: center;
     text-decoration: none;
     background-color: lightslategray;
     color: white;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
+
 }
 
-.button:hover {
+.button_email:hover {
     background-color: rgba(2,0,0,0.6);
+    color: lightcoral;
 }
-.buttonwhat {
+
+.button_whatsapp {
+    text-align: center;
+    position: center;
     text-decoration: none;
     background-color: lightslategray;
     color: white;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
-
 }
-.buttonwhat:hover {
+
+.button_whatsapp:hover {
     color: forestgreen;
     background-color: rgba(2,0,0,0.6);
 }
 
+ul {
+    list-style: none;
+}
 
-.rede_l {
-
+.rede_linkedin {
     Text-decoration: none;
     color: white;
     font-size: 50px;
-
-;
+    object-position: left;
 }
-.rede_l:hover {
-    background-color: rgba(2,0,0,0.6);
-}
-.rede_g {
 
-    Text-decoration: none;;
+.rede_github {
+    Text-decoration: none;
     color: white;
     font-size: 50px;
-
-}
-.rede_g:hover {
-    background-color: rgba(2,0,0,0.6);
 }
