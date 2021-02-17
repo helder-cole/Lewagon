@@ -1,6 +1,6 @@
 body {
     /* Location of the image */
-    background-image:url("images/website-background.gif");
+    background-image:url("images/background2.jpg");
 
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -24,27 +24,40 @@ body {
          */
     text-align: center;
     position: center;
-    font-family: Helvetica, fantasy;
+    Font-family:'Raleway',sans-serif;
+
 
 }
 h1 {
     font-weight: bold;
     font-size: 90px;
-    color: whitesmoke;
-    padding-top: 80px;
-    text-shadow: 2px 2px 2px #464646;
+    color: floralwhite;
+    padding-top: 50px;
+    text-shadow: 3px 3px 3px #464646;
     margin-bottom: 10px;
+
 }
-p {
-    font-weight: bold;
-    font-size: 40px;
-    color: whitesmoke;
+h3 {
+    font-size: 30px;
+    color: floralwhite;
     margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 30px;
+    color: floralwhite;
+    margin-bottom: 15px;
+
+}
+.contacts {
+    padding-top: 100px;
+    font-size: 25px;
 }
 
 .button {
     text-decoration: none;
-    background-color: firebrick;
+    background-color: lightslategray;
     color: white;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
@@ -54,9 +67,50 @@ p {
 .button:hover {
     background-color: rgba(2,0,0,0.6);
 }
-.dot.logo {
-    padding-left: 500px;
-    padding-top: 900px;
+.buttonwhat {
+    text-decoration: none;
+    background-color: lightslategray;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+
+}
+.buttonwhat:hover {
+    color: forestgreen;
+    background-color: rgba(2,0,0,0.6);
 }
 
 
+.rede_l {
+
+    Text-decoration: none;
+    background-color: lightslategray;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    position:absolute;
+    transition: .5s ease;
+    left: 1250px;
+    top: 550px;
+}
+.rede_l:hover {
+    background-color: rgba(2,0,0,0.6);
+}
+.rede_g {
+
+    Text-decoration: none;
+    background-color: lightslategray;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    position:absolute;
+    transition: .5s ease;
+    left: 1300px;
+    top: 550px;
+}
+.rede_g:hover {
+    background-color: rgba(2,0,0,0.6);
+}
