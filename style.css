@@ -1,39 +1,27 @@
 body {
     /* Location of the image */
-    background-image:url("images/background2.jpg");
+    background-image:url("images/background3.png");
 
-    /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
 
-    /* Background image doesn't tile */
     background-repeat: no-repeat;
 
-    /* Background image is fixed in the viewport so that it doesn't move when
-       the content's height is greater than the image's height */
     background-attachment: fixed;
 
-    /* This is what makes the background image rescale based
-       on the container's size */
     background-size: cover;
 
-    /* Set a background color that will be displayed
-       while the background image is loading */
-    background-color: #464646;
-
-    /*Set all the text to be displayed in the middle
-         */
+    background-color: black;
 
     Font-family:'Raleway',sans-serif;
 
-
 }
 h1 {
-    Font-family: 'Cinzel',serif;
+    font-family: 'Poiret One', cursive;
     font-weight: bold;
     font-size: 90px;
-    color: floralwhite;
+    color: lightgoldenrodyellow;
     padding-top: 30px;
-    text-shadow: 3px 3px 3px #464646;
+    text-shadow: 3px 3px 3px rgba(52, 102, 196, 0.53);
     margin-bottom: 10px;
     text-align: center;
     position: center;
@@ -41,8 +29,9 @@ h1 {
 }
 h3 {
     font-size: 30px;
-    color: floralwhite;
+    color: lightgoldenrodyellow;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px rgba(52, 102, 196, 0.53);
     text-align: center;
     position: center;
     margin-bottom: 55px;
@@ -54,9 +43,18 @@ h3 {
     text-decoration-style: dotted;
     margin-top: fill;
 }
+
+.talk {
+    Font-size:18px;
+    text-align: center;
+    text-decoration: beige;
+    text-decoration-style: dotted;
+    margin-top: fill;
+}
+
 p {
     font-size: 15px;
-    color: floralwhite;
+    color: gainsboro;
     text-align: center;
     position: center;
     margin-bottom:10px;
@@ -64,6 +62,8 @@ p {
 
 ul {
     list-style: none;
+    padding: 25px 0px ;
+
 }
 
 
@@ -73,7 +73,6 @@ ul {
     text-align: center;
     position: center;
     text-decoration: none;
-    background-color: lightslategray;
     color: white;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
@@ -82,15 +81,14 @@ ul {
 }
 
 .button_email:hover {
-    background-color: rgba(2,0,0,0.6);
     color: lightcoral;
+    background-color: rgba(2,0,0,0.6);
 }
 
 .button_whatsapp {
     text-align: center;
     position: center;
     text-decoration: none;
-    background-color: lightslategray;
     color: white;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
@@ -106,7 +104,6 @@ ul {
     Text-decoration: none;
     color: white;
     font-size: 50px;
-    object-position: left;
 }
 
 .rede_github {
@@ -114,3 +111,5 @@ ul {
     color: white;
     font-size: 50px;
 }
+
+
