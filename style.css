@@ -19,7 +19,7 @@ h1 {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     font-size: 90px;
-    color: lightgoldenrodyellow;
+    color: lightcyan;
     padding-top: 30px;
     text-shadow: 3px 3px 3px rgba(52, 102, 196, 0.53);
     margin-bottom: 10px;
@@ -29,7 +29,7 @@ h1 {
 }
 h3 {
     font-size: 30px;
-    color: lightgoldenrodyellow;
+    color: lightcyan;
     text-decoration: underline;
     text-shadow: 1px 1px 1px rgba(52, 102, 196, 0.53);
     text-align: center;
@@ -54,7 +54,7 @@ h3 {
 
 p {
     font-size: 15px;
-    color: gainsboro;
+    color: lightcyan;
     text-align: center;
     position: center;
     margin-bottom:10px;
